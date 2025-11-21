@@ -72,12 +72,14 @@ img {
 
 .overlay {
   position: relative;
+  width: 100%;
+  height: 100%;
 }
 
 .info {
   position: absolute;
-  bottom: 528px;
-  left: 64px;
+  left: 1%;
+  transform: translate(0%, -100%);
   background-color: brown;
   padding: 16px;
   display: flex;
@@ -101,6 +103,22 @@ img {
 
   width: auto;
   height: auto;
+}
+
+#about .info {
+  bottom: 250px;
+}
+
+#experience .info {
+  bottom: 80px;
+}
+
+#adopt .info {
+  bottom: 250px;
+}
+
+#shop .info {
+  bottom: 900px;
 }
 
 .info a:hover {
