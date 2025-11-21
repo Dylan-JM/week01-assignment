@@ -69,3 +69,44 @@ img {
   width: 100%;
   height: auto;
 }
+
+.overlay {
+  position: relative;
+}
+
+.info {
+  position: absolute;
+  bottom: 528px;
+  left: 64px;
+  background-color: brown;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.info a {
+  background-color: rgba(34, 139, 34, 0.7);
+  text-decoration: none;
+  font-size: xx-large;
+
+  border-radius: 8px;
+
+  margin-top: 25px;
+  margin-right: 150px;
+
+  padding: 5px;
+
+  display: flex;
+  justify-content: center;
+
+  width: auto;
+  height: auto;
+}
+
+.info a:hover {
+  border: 2px solid green;
+  background-color: rgba(255, 250, 240, 1);
+  color: rgba(34, 139, 34, 0.7);
+  text-decoration: underline;
+  cursor: pointer;
+}
