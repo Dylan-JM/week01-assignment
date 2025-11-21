@@ -20,7 +20,7 @@ header {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: rgba(252, 115, 3, 0.2);
+  background-color: rgba(166, 75, 2, 0.5);
   z-index: 1;
   padding: 10px;
   min-height: 100px;
@@ -59,8 +59,13 @@ main {
 }
 
 footer {
-  background-color: rgba(252, 115, 3, 0.2);
+  background-color: rgba(166, 75, 2, 0.5);
   text-align: center;
   padding: 10px;
   color: white;
+}
+
+.hero-image {
+  width: 100%;
+  height: auto;
 }
