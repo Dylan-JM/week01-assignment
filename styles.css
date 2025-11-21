@@ -10,6 +10,9 @@ html {
 
 body {
   background-color: maroon;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 header {
@@ -20,6 +23,7 @@ header {
   background-color: rgba(252, 115, 3, 0.2);
   z-index: 1;
   padding: 10px;
+  min-height: 100px;
 
   display: flex;
   justify-content: space-between;
@@ -47,4 +51,16 @@ h1 {
 .header-nav a:hover {
   text-decoration: underline;
   text-transform: italic;
+}
+
+main {
+  margin-top: 100px;
+  color: white;
+}
+
+footer {
+  background-color: rgba(252, 115, 3, 0.2);
+  text-align: center;
+  padding: 10px;
+  color: white;
 }
