@@ -3,3 +3,48 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: maroon;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(252, 115, 3, 0.2);
+  z-index: 1;
+  padding: 10px;
+
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+h1 {
+  color: white;
+  padding-left: 50px;
+}
+
+.header-nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.header-nav a {
+  color: whitesmoke;
+  padding: 30px;
+  text-decoration: none;
+}
+
+.header-nav a:hover {
+  text-decoration: underline;
+  text-transform: italic;
+}
