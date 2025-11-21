@@ -148,3 +148,10 @@ img {
 .btn-to-top:hover {
   background-color: rgba(34, 139, 34, 1);
 }
+
+.insta-logo {
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
