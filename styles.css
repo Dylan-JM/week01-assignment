@@ -103,6 +103,8 @@ img {
 
   width: auto;
   height: auto;
+
+  border: 2px solid transparent;
 }
 
 #about .info {
